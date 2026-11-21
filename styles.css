@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Stack+Sans+Headline:wght@200..700&display=swap');
+
+:root{
+    --primary-font:"Stack Sans Headline", sans-serif;
+    --secondary-font:"DM Sans", sans-serif;
+    --clr-white:#ffffff;
+    --clr-background:hsl(313, 25%, 90%);
+    --clr-bold: hsl(0, 100%, 80%);
+    --clr-light:hsl(0, 100%, 92%);
+    --clr-extralight:hsl(0, 100%, 95%);
+    --clr-dim: hsl(0, 10%, 92%, 0.5);
+    --clr-black: #2c2c2c;
+}
+
+body{
+    font-family: var(--secondary-font);
+    background-color: var(--clr-extralight);
+    margin: 10px;
+    min-width: 390px;
+}
+
+button {
+    font-family: var(--secondary-font);
+    color: var(--clr-white);
+    background-color: var(--clr-bold);
+    border: solid 1px var(--clr-bold);
+    border-radius: 0px;
+    padding: 10px 19px 10px 19px;
+}
+
+button:hover{
+    color: var(--clr-bold);
+    background-color: var(--clr-light);
+    cursor: pointer;
+}
+
+button:active{
+    background-color: var(--clr-extralight);
+}
+
+#input-el{
+    height:37px;
+    border-radius: 0px;
+    border: 2px solid var(--clr-bold);
+    width: 100%;
+    padding:10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#ul-El{
+    font-family: var(--secondary-font);  
+    list-style: none; 
+    padding-left: 2px;
+}
+
+li a {
+    color: var(--clr-bold);
+    text-decoration: none;
+}
+
+
+#delete-btn{
+    background: var(--clr-white);
+    color: var(--clr-bold);
+    border: solid 1px var(--clr-bold);
+}
+#delete-btn:hover{
+    background: var(--clr-bold);
+    color: var(--clr-white);
+}
